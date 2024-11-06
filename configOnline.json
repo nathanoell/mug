@@ -1,0 +1,1725 @@
+[
+  {
+    "name": "aka-ms",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://aka.ms/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      302
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 7
+  },
+  {
+    "name": "digbig-com",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://digbig.com/",
+    "redirect_codes": [
+      302,
+      301
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "dy-si",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://dy.si/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "www.dynamicsignal\\.com/$",
+    "token_length": 5
+  },
+  {
+    "name": "ed-gr",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://ed.gr/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "rebrandly\\.com/404$",
+    "token_length": 5
+  },
+  {
+    "name": "go-hawaii-edu",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://go.hawaii.edu/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      825
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "https://go\\.hawaii\\.edu$",
+    "token_length": -1
+  },
+  {
+    "name": "go-osu-edu",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://go.osu.edu/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 2
+  },
+  {
+    "name": "isgd_6",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+    "url_template": "https://is.gd/",
+    "redirect_codes": [
+      301,
+      302
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^https://is\\.gd/",
+    "token_length": 6
+  },
+  {
+    "name": "lttr-ai",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://lttr.ai/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 4
+  },
+  {
+    "name": "puri-na",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://puri.na/",
+    "redirect_codes": [
+      301,
+      302
+    ],
+    "no_redirect_codes": [
+      404,
+      410
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 2
+  },
+  {
+    "name": "tiny-cc",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://tiny.cc/",
+    "redirect_codes": [
+      303
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      307
+    ],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "0rz-tw",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://0rz.tw/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  },
+  {
+    "name": "2-gp",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://2.gp/",
+    "redirect_codes": [
+      301,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404,
+      302
+    ],
+    "unavailable_codes": [
+      200,
+      503,
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^/$",
+    "token_length": 4
+  },
+  {
+    "name": "2-ly",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://2.ly/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      503
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^/$",
+    "token_length": 2
+  },
+  {
+    "name": "7-ly",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://7.ly/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404,
+      503
+    ],
+    "unavailable_codes": [
+      200,
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^(/|https://7.ly/)$",
+    "token_length": 9
+  },
+  {
+    "name": "alturl-com",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://alturl.com/",
+    "redirect_codes": [
+      302
+    ],
+    "no_redirect_codes": [
+      200,
+      301
+    ],
+    "unavailable_codes": [
+      410,
+      401
+    ],
+    "banned_codes": [
+      420,
+      429,
+      403
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": 4
+  },
+  {
+    "name": "amp-gs",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://amp.gs/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  },
+  {
+    "name": "ar-gy",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://ar.gy/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "awe-sm",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://awe.sm/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      0
+    ],
+    "unavailable_codes": [
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "azon-biz",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://azon.biz/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "bitly_6",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
+    "url_template": "https://bit.ly/",
+    "redirect_codes": [
+      301,
+      302
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      410,
+      502
+    ],
+    "banned_codes": [
+      403
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 7
+  },
+  {
+    "name": "cmplx-it",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://cmplx.it/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 4
+  },
+  {
+    "name": "cokeurl-com",
+    "alphabet": "23456789abcdefghjklmnpqrstuvwxyz",
+    "url_template": "https://cokeurl.com/",
+    "redirect_codes": [
+      301,
+      307,
+      302
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "cstu-io",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://cstu.io/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429,
+      400
+    ],
+    "body_regex": "",
+    "location_anti_regex": "contentstudio\\.io",
+    "token_length": 6
+  },
+  {
+    "name": "da-gd",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://da.gd/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  },
+  {
+    "name": "dlvr-it",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://dlvr.it/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      403
+    ],
+    "banned_codes": [
+      420,
+      429
+    ],
+    "body_regex": "content=\"0; url=(.+)\"/>",
+    "location_anti_regex": "",
+    "token_length": 3
+  },
+  {
+    "name": "fal-cn",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_.",
+    "url_template": "https://fal.cn/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404,
+      500
+    ],
+    "unavailable_codes": [
+      200,
+      502
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  },
+  {
+    "name": "flip-it",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+    "url_template": "https://flip.it/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      504
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  },
+  {
+    "name": "fos-hu",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://fos.hu/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "\\./\\?nincsmeg",
+    "token_length": "3"
+  },
+  {
+    "name": "fwdurl-net",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://fwdurl.net/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      200
+    ],
+    "unavailable_codes": [
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": "4"
+  },
+  {
+    "name": "getsatisfaction-com",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://getsatisfaction.com/t/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  },
+  {
+    "name": "git-io",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://git.io/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      502
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "go-microsoft-com",
+    "alphabet": "0123456789",
+    "url_template": "https://go.microsoft.com/fwlink/p/?LinkId=",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      302
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": "6"
+  },
+  {
+    "name": "hub-me-a",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://hub.me/a",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  },
+  {
+    "name": "hub-me-r",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://hub.me/r",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "kas-pr",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://kas.pr/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 4
+  },
+  {
+    "name": "kcy-me",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://kcy.me/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      500
+    ],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": 5
+  },
+  {
+    "name": "like2b-uy",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://like2b.uy/",
+    "redirect_codes": [
+      302
+    ],
+    "no_redirect_codes": [
+      500
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "lnk-sk",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://lnk.sk/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^https://lnk\\.sk/\\?_fid=",
+    "token_length": 3
+  },
+  {
+    "name": "m0e-me",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://m0e.me/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      302
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 3
+  },
+  {
+    "name": "mrte-ch",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://mrte.ch/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      307
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "(www\\.mrtech\\.com/|mrte\\.ch)$",
+    "token_length": -1
+  },
+  {
+    "name": "mysp-ac",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://mysp.ac/",
+    "redirect_codes": [
+      301,
+      302
+    ],
+    "no_redirect_codes": [
+      0
+    ],
+    "unavailable_codes": [
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "nblo-gs",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://nblo.gs/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^$",
+    "token_length": 5
+  },
+  {
+    "name": "nig-gr",
+    "alphabet": "_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://nig.gr/",
+    "redirect_codes": [
+      307
+    ],
+    "no_redirect_codes": [
+      301
+    ],
+    "unavailable_codes": [
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "ow-ly",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://ow.ly/",
+    "redirect_codes": [
+      301,
+      302
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      410,
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": 5
+  },
+  {
+    "name": "pub-vitrue-com",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://pub.vitrue.com/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      404,
+      200
+    ],
+    "unavailable_codes": [
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": 4
+  },
+  {
+    "name": "qr-cx",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://qr.cx/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404,
+      200
+    ],
+    "unavailable_codes": [
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^$",
+    "token_length": 4
+  },
+  {
+    "name": "rb-gy",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://rb.gy/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      302
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "rlu-ru",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://rlu.ru/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "s-id",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://s.id/",
+    "redirect_codes": [
+      200
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "window\\.location *= *'([^']+)'",
+    "location_anti_regex": "",
+    "token_length": 2
+  },
+  {
+    "name": "shortdoi-org",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://dx.doi.org/10/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 4
+  },
+  {
+    "name": "shorturl-at",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://www.shorturl.at/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "https?://www\\.shorturl\\.at/$",
+    "token_length": 5
+  },
+  {
+    "name": "srtn-us",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://srtn.us/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      302
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": 4
+  },
+  {
+    "name": "stuf-in",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://stuf.in/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 6
+  },
+  {
+    "name": "t-ly",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://t.ly/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 4
+  },
+  {
+    "name": "t7-hu",
+    "alphabet": "00123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://t7.hu/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      200
+    ],
+    "unavailable_codes": [
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "techme-me",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://techme.me/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": "4"
+  },
+  {
+    "name": "tighturl-com",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://tighturl.com/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      401,
+      500,
+      403
+    ],
+    "banned_codes": [
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": "4"
+  },
+  {
+    "name": "tiny-pl",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://tiny.pl/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "https://tiny\\.pl/404\\.php|^$",
+    "token_length": 5
+  },
+  {
+    "name": "tiny-tw",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://tiny.tw/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "^$",
+    "token_length": 4
+  },
+  {
+    "name": "tinyurl_7",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://tinyurl.com/",
+    "redirect_codes": [
+      200,
+      301,
+      307
+    ],
+    "no_redirect_codes": [
+      404,
+      520,
+      521,
+      405
+    ],
+    "unavailable_codes": [
+      302,
+      502,
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 7
+  },
+  {
+    "name": "tr-im_gravity4",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://tr.im/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      302
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "trap-it",
+    "alphabet": "00123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://trap.it/",
+    "redirect_codes": [
+      301,
+      302,
+      200
+    ],
+    "no_redirect_codes": [
+      400,
+      404,
+      500
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "content=\"\\d+; ?url=([^\"]+)\"",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "u-to",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://u.to/",
+    "redirect_codes": [
+      302
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      500
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": 6
+  },
+  {
+    "name": "url-ie",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://url.ie/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      403
+    ],
+    "banned_codes": [
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "vgd_6",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+    "url_template": "https://v.gd/",
+    "redirect_codes": [
+      301,
+      302
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200,
+      410
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429,
+      502
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 6
+  },
+  {
+    "name": "viddy-it",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://www.viddy.it/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      302
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "vzturl-com",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://vzturl.com/",
+    "redirect_codes": [
+      200
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [],
+    "banned_codes": [
+      403,
+      420,
+      429,
+      508
+    ],
+    "body_regex": "<frame src=\"([^\"]+)\".* scrolling=yes",
+    "location_anti_regex": "deletedurl\\.php",
+    "token_length": -1
+  },
+  {
+    "name": "waa-ai",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://waa.ai/",
+    "redirect_codes": [
+      301,
+      302
+    ],
+    "no_redirect_codes": [
+      303
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "waa\\.ai/error",
+    "token_length": -1
+  },
+  {
+    "name": "wp-me",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://wp.me/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": -1
+  },
+  {
+    "name": "xrl-us",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://xrl.us/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      200
+    ],
+    "unavailable_codes": [
+      410,
+      504
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "xrl-us_lowercase",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://xrl.us/",
+    "redirect_codes": [
+      301
+    ],
+    "no_redirect_codes": [
+      200
+    ],
+    "unavailable_codes": [
+      410,
+      504
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": null,
+    "token_length": -1
+  },
+  {
+    "name": "xurl-es",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "url_template": "https://xurl.es/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "https://xurl.es",
+    "token_length": -1
+  },
+  {
+    "name": "zc-vg",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://zc.vg/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404,
+      400
+    ],
+    "unavailable_codes": [
+      200
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "https?://campaigns\\.zoho\\.com/InvalidShortURL\\.zc$",
+    "token_length": 5
+  },
+  {
+    "name": "zpr-io",
+    "alphabet": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "url_template": "https://zpr.io/",
+    "redirect_codes": [
+      301,
+      302,
+      303,
+      307
+    ],
+    "no_redirect_codes": [
+      404,
+      200
+    ],
+    "unavailable_codes": [
+      503
+    ],
+    "banned_codes": [
+      403,
+      420,
+      429
+    ],
+    "body_regex": "",
+    "location_anti_regex": "",
+    "token_length": 5
+  }
+]

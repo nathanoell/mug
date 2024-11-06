@@ -1,1 +1,10 @@
-mugenv/
+mugvenv/
+mugOut/
+out/
+backup/
+old/
+meg/
+test/
+.vscode/
+results/
+shortenerConfig
