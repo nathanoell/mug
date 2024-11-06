@@ -42,13 +42,9 @@ This step focus on creating the files needed for running `meg`, which are :
     ```
 
   - As you may have remarked, this method may create monstrous file of a lot of GB, because the number of token created is equal to :
-    $$
-    (\text{alphabet size})^{\text{tokenLength}}
-    $$
+    $(\text{alphabet size})^{\text{tokenLength}}$
     For instance, if `alphabet='abcdefghijklmnopqrstuvwxyz'` and `tokenLength=5` the number of token will be equal to $26^5$ or $11881376$, given the fact that each characters takes 1 bytes in ASCII and that there're 5 characters in each token, the space needed will be equal :
-    $$
-    (\text{space taken by a token}) \times (\text{number of token}) = (\text{tokenLength + 1 bytes}) \times 11881376 = 6 \times 11881376 \ \text{bytes} = 59 406 880 \ \text{bytes} \\ \approx 59 \times 10^6 \ \text{bytes} = 59 \ \text{Mb}
-    $$
+    $(\text{space taken by a token}) \times (\text{number of token}) = (\text{tokenLength + 1 bytes}) \times 11881376 = 6 \times 11881376 \ \text{bytes} = 59 406 880 \ \text{bytes} \approx 59 \times 10^6 \ \text{bytes} = 59 \ \text{Mb}$
 
   - To solve the problem of huge file, a *scatterRate* is used, the mechanism used scatter the file by the first character of the *token*. 
 
@@ -67,9 +63,12 @@ This step focus on creating the files needed for running `meg`, which are :
   - Unfortunately, using a *scatterRate* doesn't let us use less space (which is impossible if we want every *token* to be written somewhere in a file) but it let us create smaller file, which are easier to manipulate.
 
   - In this way, file have a maximum size of :
-    $$
-    (\text{alphabetLength})^{\text{tokenLength}} \times (\text{tokenLength} + 1) \times \frac{1}{(\text{alphabetLength})^{\text{scatterRate}}} = \frac{(\text{alphabetLength})^{\text{tokenLength}}}{(\text{alphabetLength})^{\text{scatterRate}}} \times (\text{tokenLength} + 1) \\ = (\text{alphabetLength})^{\text{tokenLength - scatterRate}} \times (\text{tokenLength} + 1) \ \text{bytes}
-    $$
+    $(\text{alphabetLength})^{\text{tokenLength}} \times (\text{tokenLength} + 1) \times \frac{1}{(\text{alphabetLength})^{\text{scatterRate}}} = \frac{(\text{alphabetLength})^{\text{tokenLength}}}{(\text{alphabetLength})^{\text{scatterRate}}} \times (\text{tokenLength} + 1)$
+
+    Thus, it gives :
+
+    $(\text{alphabetLength})^{\text{tokenLength - scatterRate}} \times (\text{tokenLength} + 1) \ \text{bytes}$
+
     With this formula, we clearly see that *scatterRate* must be inferior to *tokenLength*, moreover in the case where *scatterRate* = *tokenLength*, each file will only hold 1 token (since $x^0 = 1$), which is useless. Therefore, in the script, *scatterRate* must be strictly inferior to *tokenLength*.
 
 We can also specify a *outputDirectory* where the file(s) containing the tokens will be stored.
@@ -81,9 +80,9 @@ We can also specify a *outputDirectory* where the file(s) containing the tokens 
 - `generateTokens.sh` is used multiple times in a specific range. The range is by default 1 - 4, but it is recommended to the user to set it with `-m` and `-M`, respectively for the lower limit and the upper limit of the range.
 
   - Since *scatterRate* must be strictly inferior to *tokenLength* and *tokenLength* will vary, when `generateTokens.sh` is launched for a specific *tokenLength* called *i*, the actual *scatterRate* given is :
-    $$
+    $
     \text{specificScatterRate} = \min(i - 1, \text{scatterRate})
-    $$
+    $
 
 - 
 
