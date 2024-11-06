@@ -12,7 +12,7 @@ This step focus on creating the files needed for running `meg`, which are :
 
 - create the list of hosts. 
 
-  1. Using a live list on github which is updated frequently : https://github.com/PeterDaveHello/url-shorteners, thanks [@PeterDaveHello](https://github.com/PeterDaveHello) for that
+  1. Using a live list on github which is updated frequently : https://github.com/PeterDaveHello/url-shorteners.
 
   2. And it also uses https://wiki.archiveteam.org/index.php/URLTeam but the process is heavy (because it requires some manual pre-processing and work) for not so much result
 
