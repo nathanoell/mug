@@ -31,11 +31,7 @@ In order to understand the goal of `mug`, it is recommended to read [meg's READM
 
     - The maximum space used is :
 
-    - $$
-        (\sum^{\text{M}}_{i=\text{m}} \text{(alphabet size)}^i)\times \text{(number of hosts)} \text{ ko} \times (\sim 500)
-        $$
-
-        
+    - $(\sum^{\text{M}}_{i=\text{m}} \text{(alphabet size)}^i)\times \text{(number of hosts)} \text{ ko} \times (\sim 500)$
 
         - The huge sum represents the creation of token file. $M$ is the *tokenMaxLength* and $m$ the *tokenMinLength*, $M$ will often be 6 and $m$ 1 or 2.
         - The product is here because every token is requested for every hosts and the request is stored.
@@ -45,9 +41,7 @@ In order to understand the goal of `mug`, it is recommended to read [meg's READM
 - **Be aware that `mug` is taking a lot of time to run** (count it in days, if not weeks). If you want to have an idea of the current results who can run `./afterMeg.sh [meg out path] -o 'mugPartialOutput'` to get it (P.S : it's actually the last line of `mug.sh`)
 
     - The order of time taken is (as for space) :
-        $$
-        (\sum^{\text{M}}_{i=\text{m}} \text{(alphabet size)}^i)\times (\text{(number of hosts)} + 1)
-        $$
+        $(\sum^{\text{M}}_{i=\text{m}} \text{(alphabet size)}^i)\times (\text{(number of hosts)} + 1)$
 
     - See `doc/Functioning.md` for more insights on what is going on and what takes time.
 
