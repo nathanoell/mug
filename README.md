@@ -16,6 +16,10 @@ In order to understand the goal of `mug`, it is recommended to read [meg's READM
 ## Installation
 - Simply do a basic git clone : `git clone https://github.com/nathanoell/mug.git`
 
+## Requirements
+- go (don't forget to have it in your $PATH)
+- [meg](https://github.com/tomnomnom/meg) (don't forget to have it in your $PATH)
+  
 ## Use
 - After the repo is cloned do : `cd mug`
 - Give execution rigth to .sh script : `chmod +x mug.sh`
